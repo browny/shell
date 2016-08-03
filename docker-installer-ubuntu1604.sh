@@ -16,7 +16,7 @@ sudo apt-get install --assume-yes linux-image-extra-$(uname -r)
 
 # Install docker-engine
 sudo apt-get update
-sudo apt-get install --assume-yes docker-engine
+sudo apt-get install --assume-yes --allow-unauthenticated docker-engine
 sudo service docker start
 
 # To create the docker group and add your user
