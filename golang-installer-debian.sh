@@ -22,6 +22,6 @@ sudo rm -rf /usr/local/go
 sudo mv go /usr/local
 
 # Setup GOROOT and GOPATH
-echo "GOROOT=/usr/local/go" >> $HOME/.profile
-echo "GOPATH=$HOME/go" >> $HOME/.profile
-echo 'PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> $HOME/.profile
+echo "GOROOT=/usr/local/go" >> $HOME/.bashrc
+echo "GOPATH=$HOME/go" >> $HOME/.bashrc
+echo 'PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> $HOME/.bashrc
