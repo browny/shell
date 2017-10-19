@@ -12,8 +12,8 @@ sudo apt-get -y upgrade
 
 # Install packages to allow apt to use a repository over HTTPS
 sudo apt-get install --assume-yes \
-     curl \
-	 git
+	curl \
+	git
 
 # Download and install
 wget https://storage.googleapis.com/golang/go$GO_VERSION.linux-amd64.tar.gz
